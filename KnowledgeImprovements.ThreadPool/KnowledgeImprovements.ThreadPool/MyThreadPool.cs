@@ -31,7 +31,6 @@ namespace KnowledgeImprovements.ThreadPool
                 {
                     try
                     {
-                        Thread.Sleep(1000);
                         actionInfo.Action();
                         ThreadPoolInfo($"Action { actionInfo.Guid } completed");
                     }
